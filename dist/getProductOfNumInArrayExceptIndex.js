@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getProductOfNumInArrayExceptIndex = exports.productOfIndexRemovedArrayElements = exports.removeNumberAtCurrentIndex = exports.cloneInputArray = void 0;
+const range = require('lodash/range');
 exports.cloneInputArray = (array) => {
     return array.slice();
 };
@@ -21,3 +22,4 @@ exports.getProductOfNumInArrayExceptIndex = (inputArray) => {
     }
     return productArray;
 };
+exports.getProductOfNumInArrayExceptIndex(range(100000));

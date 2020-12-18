@@ -1,3 +1,4 @@
+const range = require('lodash/range')
 export const cloneInputArray = (array:number[]) => {
     return array.slice()
 }
@@ -21,6 +22,8 @@ export const getProductOfNumInArrayExceptIndex = (inputArray:number[]):number[] 
     }
     return productArray
 }
+
+
 
 
 
