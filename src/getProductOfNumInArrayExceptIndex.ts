@@ -10,6 +10,7 @@ export const removeNumberAtCurrentIndex = (clonedArray:number[],indexToRemove:nu
 export const productOfIndexRemovedArrayElements = (clonedArray:number[]):number => {
     return clonedArray.reduce((acc:number,current:number):number => acc * current )
 }
+
 export const getProductOfNumInArrayExceptIndex = (inputArray:number[]):number[] => {
     const productArray:number[] | undefined = []
     for (let i:number = 0; i < inputArray.length; i++) {
