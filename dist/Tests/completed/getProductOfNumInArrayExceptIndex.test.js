@@ -1,6 +1,6 @@
 const { getProductOfNumInArrayExceptIndex, cloneInputArray, removeNumberAtCurrentIndex, productOfIndexRemovedArrayElements } = require('../../completed/getProductOfNumInArrayExceptIndex')
 
-describe.skip('takes in array and for each index returns product of all numbers except number at index', () =>{
+describe('takes in array and for each index returns product of all numbers except number at index', () =>{
     test('takes input array and clones a copy', () => {
         expect(cloneInputArray([1,7,3,4])).toEqual([1,7,3,4])
     })

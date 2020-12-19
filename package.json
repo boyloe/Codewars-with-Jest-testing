@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "jest": {
-  },
   "scripts": {
-    "test": "tsc && jest"
+    "test": "tsc && jest --testPathIgnorePatterns='<rootDir>/dist/tests/completed'"
   },
   "keywords": [],
   "author": "",
