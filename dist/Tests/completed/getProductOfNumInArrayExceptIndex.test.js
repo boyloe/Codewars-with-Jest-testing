@@ -1,4 +1,4 @@
-const { getProductOfNumInArrayExceptIndex, cloneInputArray, removeNumberAtCurrentIndex, productOfIndexRemovedArrayElements } = require('../getProductOfNumInArrayExceptIndex')
+const { getProductOfNumInArrayExceptIndex, cloneInputArray, removeNumberAtCurrentIndex, productOfIndexRemovedArrayElements } = require('../../completed/getProductOfNumInArrayExceptIndex')
 
 
     test('takes in array and for each index returns product of all numbers except number at index', () => {

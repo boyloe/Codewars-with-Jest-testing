@@ -22,4 +22,3 @@ exports.getProductOfNumInArrayExceptIndex = (inputArray) => {
     }
     return productArray;
 };
-exports.getProductOfNumInArrayExceptIndex(range(100000));
