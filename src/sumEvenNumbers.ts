@@ -2,6 +2,5 @@ export const evenNumbers = (array:number[]):number[] => array.filter(number => n
 
 export const sumEvenNumbers = (inputArray:number[]):number => {
     const evenArray = evenNumbers(inputArray)
-    return 0
-
+    return evenArray.reduce((acc:number, current:number) => acc + current)
 }
