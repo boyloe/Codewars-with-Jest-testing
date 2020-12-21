@@ -20,7 +20,8 @@ G964.stockList = (listOfArt, listOfCat) => {
     });
     const returnArray = [];
     for (let [key, value] of categoryHashMap.entries()) {
-        returnArray.push(`(${key} : ${value})`);
+        if (!Number.isNaN(value))
+            returnArray.push(`(${key} : ${value})`);
     }
     return returnArray.join(' - ');
 };
