@@ -3,7 +3,7 @@ export class G964 {
         if (listOfArt.length === 0 || listOfCat.length === 0) {
             return ""
         }
-        const categoryHashMap = new Map
+        const categoryHashMap = new Map()
 
         listOfCat.forEach(category => {
             categoryHashMap.set(category, 0)
@@ -16,6 +16,7 @@ export class G964 {
         });
             const returnArray:string[] = []
             for (let [key,value] of categoryHashMap.entries()) {
+                if (!Number.isNaN(value) )
                 returnArray.push(`(${key} : ${value})`)
             }
             return returnArray.join(' - ')

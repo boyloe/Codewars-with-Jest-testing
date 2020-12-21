@@ -8,7 +8,7 @@ G964.stockList = (listOfArt, listOfCat) => {
     if (listOfArt.length === 0 || listOfCat.length === 0) {
         return "";
     }
-    const categoryHashMap = new Map;
+    const categoryHashMap = new Map();
     listOfCat.forEach(category => {
         categoryHashMap.set(category, 0);
     });
