@@ -1,4 +1,4 @@
-const { evenNumbers, sumEvenNumbers } = require('../sumEvenNumbers')
+const { evenNumbers, sumEvenNumbers } = require('../../completed/sumEvenNumbers')
 
 
 describe('takes an array of numbers and returns the sum of the even numbers', () =>{
