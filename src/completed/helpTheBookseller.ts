@@ -22,8 +22,3 @@ export class G964 {
             return returnArray.join(' - ')
     }
 }
-
-const listOfArt1:string[] = [ 'BBAR 150', 'CDXE 515', 'BKWR 250', 'BTSQ 890', 'DRTY 600' ] 
-const listOfCat1:string[] = [ 'A', 'B', 'C', 'D' ]
-
-G964.stockList(listOfArt1, listOfCat1)
