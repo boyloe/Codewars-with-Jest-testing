@@ -5,7 +5,6 @@ export class G964 {
     }
 
     public static sumDivisors = (currentNumber:number):number => {
-        let sum = 0 
         return 0
     }
 }
