@@ -1,5 +1,5 @@
 export function rot(s: string): string {
-    return ""
+    return "this has been rotated"
 }
 
 export function selfieAndRot(s: string): string {
