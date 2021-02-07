@@ -8,7 +8,6 @@ export function multiplicationTable(size: number): number[][] {
             jArray.push(i * j);
         }
     }
-    console.log(iArray);
     return iArray;
 }
 

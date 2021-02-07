@@ -11,7 +11,6 @@ function multiplicationTable(size) {
             jArray.push(i * j);
         }
     }
-    console.log(iArray);
     return iArray;
 }
 exports.multiplicationTable = multiplicationTable;
